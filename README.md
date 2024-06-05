@@ -25,20 +25,25 @@ This is a simple chat application built with React for the frontend and Node.js 
 
 1. Clone the repository:
 
-   ```bash git clone
-
+   ```
+   gh repo clone Sam-mx/chat-app
    ```
 
 2. Navigate to the project directory:
 
-   ```cd chat-app
+   ```
+   cd chat-app
 
    ```
 
 3. Build and run the application using Docker Compose:
 
-   ```docker-compose up --build
+   ```
+   docker-compose up --build
 
    ```
 
-4. Access the application at 'http://localhost:5173'.
+4. Access the application at
+   ```
+   http://localhost:5173
+   ```

@@ -26,7 +26,7 @@ This is a simple chat application built with React for the frontend and Node.js 
 1. Clone the repository:
 
    ```
-   gh repo clone Sam-mx/chat-app
+   git clone https://github.com/Sam-mx/chat-app.git
    ```
 
 2. Navigate to the project directory:

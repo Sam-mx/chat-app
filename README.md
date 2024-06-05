@@ -14,7 +14,7 @@ This is a simple chat application built with React for the frontend and Node.js 
 - React
 - Tailwind CSS
 
-## Backend
+### Backend
 
 - Node.js
 - Express.js
@@ -22,6 +22,7 @@ This is a simple chat application built with React for the frontend and Node.js 
 - Axios
 
 ## How to Run
+
 
 1. Clone the repository:
 
@@ -42,6 +43,7 @@ This is a simple chat application built with React for the frontend and Node.js 
    docker-compose up --build
 
    ```
+   - Make sure you downloaded Docker Desktop
 
 4. Access the application at
    ```

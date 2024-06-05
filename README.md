@@ -1,6 +1,6 @@
 # Chat Application
 
-This is a simple chat application built with React for the frontend and Node.js for the backend. It allows users to engage in real-time text-based conversations with a chatbot.
+This is a simple chat application built with React for the frontend and Node.js for the backend. It allows users to get a random quote from the API.
 
 ## Features
 

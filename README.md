@@ -43,7 +43,7 @@ This is a simple chat application built with React for the frontend and Node.js 
    docker-compose up --build
 
    ```
-   - Make sure you downloaded Docker Desktop
+   - Make sure you downloaded Docker Desktop (It will require some time to construct everything.)
 
 4. Access the application at
    ```

@@ -1,0 +1,17 @@
+version: "3"
+services:
+  frontend:
+    build:
+      context: ./frontend
+    ports:
+      - "5173:3000" # Expose port 3000 from the container to 5173 on the host
+    depends_on:
+      - backend
+
+  backend:
+    build:
+      context: ./backend
+    ports:
+      - "3001:3001"
+    env_file:
+      - ./backend/.env

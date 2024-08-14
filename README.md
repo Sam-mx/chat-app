@@ -29,32 +29,27 @@ This is a simple chat application built with React for the frontend and Node.js 
    git clone https://github.com/Sam-mx/chat-app.git
    ```
 
-2. Enter Your OpenAI API key in .env file
-
-   ```
-   OPENAI_API_KEY =
-   ```
-
-3. Navigate to the project directory:
+2. Navigate to the project directory:
 
    ```
    cd chat-app
 
    ```
 
-4. Build and run the application using Docker Compose:
+3. Install the required dependencies for both the frontend and backend:
+
+   ```
+   npm install
 
    ```
 
-   ```
-
-5. Start the backend and frontend concurrently:
+4. Start the backend and frontend concurrently:
 
    ```
    npm run dev
    ```
 
-6. Access the application at
+5. Access the application at
    ```
    http://localhost:5173
    ```

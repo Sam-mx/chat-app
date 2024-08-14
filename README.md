@@ -23,7 +23,6 @@ This is a simple chat application built with React for the frontend and Node.js 
 
 ## How to Run
 
-
 1. Clone the repository:
 
    ```
@@ -37,15 +36,20 @@ This is a simple chat application built with React for the frontend and Node.js 
 
    ```
 
-3. Build and run the application using Docker Compose:
+3. Install the required dependencies for both the frontend and backend:
 
    ```
-   docker-compose up --build
+   npm install
 
    ```
-   - Make sure you downloaded Docker Desktop (It will require some time to construct everything.)
 
-4. Access the application at
+4. Start the backend and frontend concurrently:
+
+   ```
+   npm run dev
+   ```
+
+5. Access the application at:
    ```
    http://localhost:5173
    ```
